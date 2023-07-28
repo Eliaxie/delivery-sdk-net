@@ -34,6 +34,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontent.Ai.Delivery.Extensi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontent.Ai.Delivery.Abstractions.Tests", "Kontent.Ai.Delivery.Abstractions.Tests\Kontent.Ai.Delivery.Abstractions.Tests.csproj", "{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moderation", "Main\Moderation.csproj", "{AD6F050E-CB1C-462A-BFB5-8605E8A0604F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModerationTest", "Test\ModerationTest.csproj", "{A32C065B-1BF1-4379-878D-04E5AE1D7B5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +96,14 @@ Global
 		{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F82D45A6-B0F5-4E40-A43B-4AFFF23EAF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6F050E-CB1C-462A-BFB5-8605E8A0604F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6F050E-CB1C-462A-BFB5-8605E8A0604F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6F050E-CB1C-462A-BFB5-8605E8A0604F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6F050E-CB1C-462A-BFB5-8605E8A0604F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32C065B-1BF1-4379-878D-04E5AE1D7B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32C065B-1BF1-4379-878D-04E5AE1D7B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32C065B-1BF1-4379-878D-04E5AE1D7B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32C065B-1BF1-4379-878D-04E5AE1D7B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
